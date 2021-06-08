@@ -1,1 +1,1 @@
-web responsive made with: HTML, CSS & BS
+web responsive made with: HTML, SASS & BS
