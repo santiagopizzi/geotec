@@ -1,0 +1,61 @@
+.topo__imagen {
+    width: 100%;
+}
+
+.topo__titulo {
+    padding-top: 20px;
+     
+    h1 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 2em;
+        color: $marca;
+
+    }
+    h2 {
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+}
+
+.topo__contenido .row {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .topo__contenido__div{
+
+        margin: 10px 0px 10px 0px;
+
+        h3 {
+            font-weight: 700;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: $marca;
+        }   
+
+    }
+}
+
+#topo_sisi {
+    @media only screen and (max-width: 992px) {
+        display: none;            
+    } 
+}
+
+#topo_none {
+    @media only screen and (min-width: 992px) {
+        display: none;            
+    } 
+}

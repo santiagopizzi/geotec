@@ -1,0 +1,93 @@
+.video {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.video__video {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+        video {
+            min-width: 100%;
+            min-height: 100vh;
+        }
+  
+}
+  
+
+.video__overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 5;
+    left: 0;
+    background: white;
+    z-index: 1;
+    opacity: .3;
+}
+  
+.video__contenido {
+    z-index: 2;
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+    h1 {
+        font-family: $poppins;
+        font-weight: 900;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        
+    }
+    p {
+        color: white;
+        font-family: $ibm;
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: 0.2px;
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+}
+
+.drone {
+    margin-bottom: 30px;
+}
+
+.drone__texto {
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+    h2 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 0px;
+        margin-bottom: 10px;
+        color: $marca;
+
+    }
+    h3 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+}
+
+

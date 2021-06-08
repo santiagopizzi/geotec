@@ -1,0 +1,60 @@
+.navbar__links {
+    color: black;
+    font-family: $ibm;
+    text-transform: uppercase;
+    font-weight: 400;
+    @media only screen and (max-width: 768px) {
+		font-size: 1.2em;
+    }
+    
+   }
+
+#active {
+    text-decoration: underline ;
+    color: $marca;
+}
+
+.navbar__logo__img {
+    height: 40px;
+    margin-left: 20px;
+    @media only screen and (max-width: 768px) {
+        display:none;
+	}
+}
+.navbar__logo__img2 {
+    margin-left: 12px;
+    height: 35px;
+    @media only screen and (min-width: 768px) {
+        display:none;        
+	}
+}
+
+.navbar__subtitulo {
+    font-family: $ibm;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    @media only screen and (min-width: 768px) {
+        display:none;        
+	}
+}
+
+
+.navbar__iconos {
+    margin-right: 20px;
+        @media only screen and (max-width: 768px) {
+		margin-right: 0px;
+	    }
+        .nav__icon {
+            margin: 10px;
+    
+            .bi {
+                width: 20px;
+                height: 20px;
+                fill: $marca;
+            }
+
+        }
+}
+

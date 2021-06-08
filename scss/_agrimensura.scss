@@ -1,0 +1,51 @@
+.agrimensura {
+    padding-top: 20px;
+     
+    .col-md-6 {
+        padding: 30px;
+        h1 {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            color:$marca;
+    
+        }
+        h2 {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-decoration: underline;
+            font-size: 1em;
+            color: $marca;
+        }
+    
+
+    }
+}
+
+
+.agrimensura__imagen {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.agrimensura__imagen--none {
+    @media only screen and (max-width: 768px) {
+        display: none;
+            
+    } 
+}
+
+span {
+    font-weight: 700;
+    font-style: italic;
+}
